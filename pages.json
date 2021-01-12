@@ -1,0 +1,18 @@
+// 配置页面路由、导航条、选项卡等页面类信息
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	],
+	// 用于设置应用的状态栏、导航条、标题、窗口背景色等。 参考： https://uniapp.dcloud.io/collocation/pages?id=globalstyle
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
